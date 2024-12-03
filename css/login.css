@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #282f37, #020303, #1c2833, #2f3640);
+    background-size: 400% 400%;
+    animation: darkGradientAnimation 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+span a{
+    background-color: #282f37;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+  @keyframes darkGradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+section{
+    width: 40%;
+
+}
+section h2{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: transparent;
+    background: linear-gradient(135deg, #2c3e50, #34495e, #1c2833, #2f3640);
+background-clip: text;
+}
+.btn-me{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+section .row .form-me input:focus{
+  
+    border-color: #111215;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(209, 211, 213, 0.25);
+}
+section .row .form-me .message{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+section .row .form-me .message span i{
+margin-right: 10px;
+}
+section .row .form-me .message span{
+    font-weight: 500;
+    font-size: 21px;
+    font-weight: 600;
+    color: red;
+}

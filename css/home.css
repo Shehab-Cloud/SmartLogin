@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    height: 77vh;
+    background: linear-gradient(135deg, #282f37, #020303, #1c2833, #2f3640);
+    background-size: 400% 400%;
+    animation: darkGradientAnimation 10s ease infinite;
+ 
+  }
+  
+
+
+
+
+
+  @keyframes darkGradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+
+.display{
+    display: flex !important;
+    justify-content: flex-end  !important;
+}
+.bg-me{
+    background-color: #2f36406d;
+}
+.bg-me .out{
+    font-size: 18px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.bg-me .out:hover{
+    background-color: orange;
+}
+.box{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 13px 10px;
+}
